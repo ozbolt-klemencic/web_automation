@@ -4,7 +4,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 # Set up the Chrome driver
-os.environ['PATH'] += "C:\SeleniumDrivers"
+os.environ['PATH'] += "path to drivers"
 driver = webdriver.Chrome()
 
 # Navigate to the Instagram login page and wait for the page to load
